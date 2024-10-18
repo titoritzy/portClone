@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Titus Kithome - Web Developer from Pwani University</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Open+Sans:wght@400;500;700&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#">
+        <h1 class="logo">Titus Kithome</h1>
+      </a>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+      <nav class="navbar container">
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          </li>
+
+          <li>
+            <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+          <li>
+            <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn-primary">Download CV</a>
+          </li>
+
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <div class="hero-banner">
+
+            <img src="./assets/images/hero-banner.jpeg" width="800" height="864" loading="lazy" alt="Titus Kithome's Photo"
+              class="img-cover">
+
+            <div class="elem elem-1">
+              <p class="elem-title">2</p>
+
+              <p class="elem-text">Years of Success</p>
+            </div>
+
+            <div class="elem elem-2">
+              <p class="elem-title">10+</p>
+
+              <p class="elem-text">Projects Completed</p>
+            </div>
+
+            <div class="elem elem-3">
+              <ion-icon name="trophy"></ion-icon>
+            </div>
+
+            <img src="./assets/images/rotate-img.png" width="169" height="172" alt="I'm developer from Kenya"
+              class="rotate-img">
+
+          </div>
+
+          <div class="hero-content">
+
+            <h2 class="hero-title">
+              <span>Hello I'm</span>
+              <strong>Titus Kithome</strong> Web Developer from Kenya
+            </h2>
+
+            <p class="hero-text">
+              Passionate about creating functional and dynamic web applications that solve real-world problems.
+            </p>
+
+            <div class="btn-group">
+              <a href="#contact" class="btn btn-primary blue">Get a Quote</a>
+
+              <a href="#about" class="btn">About Me</a>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <figure class="about-banner">
+
+            <img src="./assets/images/about-banner.jpeg" width="800" height="652" loading="lazy" alt="Titus Kithome's Photo"
+              class="img-cover">
+
+            <img src="./assets/images/tito-kit.jpeg" width="800" height="717" loading="lazy" alt="Titus Kithome's Photo"
+              class="abs-img">
+
+            <div class="abs-icon abs-icon-1">
+              <ion-icon name="logo-css3"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-2">
+              <ion-icon name="logo-javascript"></ion-icon>
+            </div>
+
+            <div class="abs-icon abs-icon-3">
+              <ion-icon name="logo-angular"></ion-icon>
+            </div>
+
+          </figure>
+
+          <div class="about-content">
+
+            <p class="section-subtitle">I'm a Developer</p>
+
+            <h2 class="h2 section-title">I Build Web Applications that Make an Impact</h2>
+
+            <p class="section-text">
+              I specialize in developing user-friendly and scalable web solutions tailored to client needs.
+            </p>
+
+            <p class="section-text">
+              My mission is to create seamless digital experiences, bringing creative ideas to life with clean code.
+            </p>
+
+            <a href="#portfolio" class="btn btn-primary blue">View Portfolio</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <section class="section portfolio" id="portfolio">
+        <div class="container">
+
+          <p class="section-subtitle">Portfolio</p>
+
+          <h2 class="h2 section-title">My Amazing Works</h2>
+
+          <p class="section-text">
+            Explore a range of projects I have completed across various industries and technologies.
+          </p>
+
+          <ul class="portfolio-list">
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Youtube</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Vimeo</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Soundcloud</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
+                <div class="card-content">
+
+                  <p class="card-subtitle">Details</p>
+
+                  <h3 class="h3 card-title">Web Application for Desiverse</h3>
+
+                  <span class="btn-link">
+                    <span>View Project</span>
+
+                    <ion-icon name="arrow-forward"></ion-icon>
+                  </span>
+
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!--
+        - #SKILLS
+      -->
+
+      <section class="section skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">My Skills</p>
+
+          <h2 class="h2 section-title">I Develop Skills Regularly</h2>
+
+          <p class="section-text">
+            Consistently learning and improving to stay up-to-date with the latest web development trends.
+          </p>
+
+          <ul class="skills-list">
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 95%">
+                <h3 class=" skills-title">CSS</h3>
+
+                <data class="skills-data" value="95">95%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 95%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 90%">
+                <h3 class=" skills-title">JavaScript</h3>
+
+                <data class="skills-data" value="90">90%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 90%"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="wrapper" style="width: 85%">
+                <h3 class=" skills-title">Angular</h3>
+
+                <data class="skills-data" value="85">85%</data>
+              </div>
+
+              <div class="skills-progress-box">
+                <div class="skills-progress" style="width: 85%"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <section class="section contact" id="contact">
+        <div class="container">
+
+          <p class="section-subtitle">Contact Me</p>
+
+          <h2 class="h2 section-title">Let's Work Together</h2>
+
+          <p class="section-text">
+            Whether you have a project in mind or just want to say hi, feel free to reach out.
+          </p>
+
+          <form action="" class="contact-form">
+            <div class="input-wrapper">
+              <input type="text" name="name" placeholder="Your Name" required class="input-field">
+              <input type="email" name="email" placeholder="Your Email" required class="input-field">
+            </div>
+
+            <textarea name="message" placeholder="Your Message" required class="input-field"></textarea>
+
+            <button type="submit" class="btn btn-primary blue">Send Message</button>
+          </form>
+
+        </div>
+      </section>
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog">
+        <div class="container">
+
+          <p class="section-subtitle">Blog</p>
+
+          <h2 class="h2 section-title">Latest Articles</h2>
+
+          <p class="section-text">
+            Stay updated with the latest trends in web development and my insights.
+          </p>
+
+          <ul class="blog-list">
+
+            <li>
+              <a href="#" class="blog-card">
+                <figure class="blog-banner img-holder" style="--width: 300; --height: 200;">
+                  <img src="./assets/images/blog-1.jpg" width="300" height="200" loading="lazy" alt="Article Image"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">JavaScript: Understanding ES6 Features</h3>
+                  <time class="publish-date">June 15, 2023</time>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="blog-card">
+                <figure class="blog-banner img-holder" style="--width: 300; --height: 200;">
+                  <img src="./assets/images/blog-2.jpg" width="300" height="200" loading="lazy" alt="Article Image"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">CSS Grid: A Game-Changer for Web Layouts</h3>
+                  <time class="publish-date">May 20, 2023</time>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="blog-card">
+                <figure class="blog-banner img-holder" style="--width: 300; --height: 200;">
+                  <img src="./assets/images/blog-3.jpg" width="300" height="200" loading="lazy" alt="Article Image"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">The Future of Angular: What to Expect in 2024</h3>
+                  <time class="publish-date">April 10, 2023</time>
+                </div>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li>
+          <a href="#about" class="navbar-link" data-nav-link>About</a>
+        </li>
+
+        <li>
+          <a href="#portfolio" class="navbar-link" data-nav-link>Portfolio</a>
+        </li>
+
+        <li>
+          <a href="#skills" class="navbar-link" data-nav-link>Skills</a>
+        </li>
+
+        <li>
+          <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+        </li>
+
+        <li>
+          <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+        </li>
+
+      </ul>
+
+      <p class="footer-text">
+        &copy; 2024 Titus Kithome. All rights reserved.
+      </p>
+
+    </div>
+  </footer>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.1/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.1/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
